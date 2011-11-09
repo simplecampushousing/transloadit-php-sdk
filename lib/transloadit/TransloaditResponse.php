@@ -1,5 +1,6 @@
 <?php
-require_once(dirname(__FILE__).'/CurlResponse.php');
+
+namespace transloadit;
 
 class TransloaditResponse extends CurlResponse{
   public function error() {
